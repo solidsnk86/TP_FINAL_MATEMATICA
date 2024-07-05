@@ -20,8 +20,8 @@ Este proyecto contiene análisis matemáticos y cálculos específicos relaciona
 > [!Note]
 > Para los siguientes casos resueltos los pueden ver en éste documento:
 
-- <a href="TP_MATEMATICA-CASO-1.md">Caso 1</a>
-- <a href="TP_MATEMATICA-CASO-2.md">Caso 2</a>
+- <a href="TP_MATEMATICA_CASO_1.md">Caso 1</a>
+- <a href="TP_MATEMATICA_CASO_2.md">Caso 2</a>
 
 ## Contenido
 
