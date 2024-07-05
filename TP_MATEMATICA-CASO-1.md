@@ -15,15 +15,15 @@
 - Salinas, Agustín
 - Tomio, Maximiliano
 
-#
+<br>
 
 # Caso 1: Calentamiento Global
 
-#
+<br>
 
 ## 1. Matriz de probabilidades de Calentamiento Global:
 
-#
+<br>
 
 $$
 \begin{Bmatrix}
@@ -36,13 +36,13 @@ $$
 \end{Bmatrix}
 $$
 
-#
+<br>
 
 ## 2. Cadena de Markov para los próximos 5 años
 
 - Representación de la probabilidad de superar 1.5°C en los próximos 5 años:
 
-#
+<br>
 
 $$
 \begin{Bmatrix}
@@ -54,14 +54,14 @@ $$
 \end{Bmatrix}
 $$
 
-#
+<br>
 
 ## 3. Sistema de ecuaciones lineales
 
 
 Definimos como variables las temperaturas promedio por año (periodo 2022-2026), superiores a los niveles preindustriales:
 
-#
+<br>
 
 $$
 \begin{align*}
@@ -73,11 +73,11 @@ T_5 & = 2026 \\
 \end{align*}
 $$
 
-#
+<br>
 
 Para cada año, la temperatura media anual está entre 1.1°C y 1.7°C superior a los niveles preindustriales. Este conjunto se puede representar como el siguiente sistema de ecuaciones lineales:
 
-#
+<br>
 
 $$
 \begin{cases}
@@ -89,7 +89,7 @@ $$
 \end{cases}
 $$
 
-#
+<br>
 
 ## 4. Conjuntos
 
@@ -113,7 +113,7 @@ $$∣𝐶∣=5$$
 
 $$𝑃(𝐶)= 93\%$$
 
-##
+<br>
 
 ## 5. Relaciones
 
@@ -135,7 +135,7 @@ $$
 |C| = 5 \quad P(C) = 93\%
 $$
 
-#
+<br>
 
 ### Relaciones entre los conjuntos
 

@@ -15,17 +15,17 @@
 - Salinas, Agustín
 - Tomio, Maximiliano
 
-#
+<br>
 
 # Caso 2: Precipitaciones y Temperatura (PT)
 
-#
+<br>
 
 ### Precipitaciones
 
 ## 1. Matriz de probabilidades de diferentes condiciones de lluvia en distintas regiones:
 
-#
+<br>
 
 $$
 \begin{array}{cccc}
@@ -43,35 +43,35 @@ $$
 \end{array}
 $$
 
-#
+<br>
 
 ## 2. Cadena de Markov
 
-#
+<br>
 
 <div align="center">
     <img src="grafo-caso-2.png" alt="Grafo Caso 2" width="600" height="400" />
 </div>
 
-#
+<br>
 
 <div align="center">
     <img src="grafo-caso-2-3.png" alt="Grafo Caso 2" width="600" height="400" />
 </div>
 
-#
+<br>
 
 <div align="center">
     <img src="grafo-caso-2-4.png" alt="Grafo Caso 2" width="600" height="400" />
 </div>
 
-#
+<br>
 
 <div align="center">
     <img src="grafo-caso-2-5.png" alt="Grafo Caso 2" width="600" height="400" />
 </div>
 
-#
+<br>
 
 $$
 \begin{table}[h!]
@@ -118,7 +118,7 @@ Supongamos que el estado "seco" es \( S \) y "lluvioso" es \( L \). La matriz de
 
 Dado que la probabilidad de que sea "seco" es 0.7 y la probabilidad de que sea "lluvioso" es 0.3, la matriz de transición se ve así:
 
-#
+<br>
 
 $$
 \begin{pmatrix}
@@ -128,13 +128,13 @@ L & 0.3 & 0.7 \\
 \end{pmatrix}
 $$
 
-#
+<br>
 
 #### Norte de Europa, Sahel, Noreste de Brasil, Australia, Alaska y Norte de Siberia
 
 Dado que la probabilidad de que sea "lluvioso" es 0.6 y la probabilidad de que sea "seco" es 0.4, la matriz de transición se ve así:
 
-#
+<br>
 
 $$
 \begin{pmatrix}
@@ -144,13 +144,13 @@ L & 0.4 & 0.6 \\
 \end{pmatrix}
 $$
 
-#
+<br>
 
 #### Región Amazónica
 
 Dado que la probabilidad de que sea "seco" es 0.7 y la probabilidad de que sea "lluvioso" es 0.3, la matriz de transición se ve así:
 
-#
+<br>
 
 $$
 \begin{pmatrix}
@@ -175,7 +175,7 @@ Las temperaturas esperadas en estas regiones según el enunciado son:
 - Trópicos: 32°C
 - Zonas Subtropicales: 27°C
 
-#
+<br>
 
 ## 3. Sistema de ecuaciones lineales para régimen pluvial y precipitaciones
 
@@ -193,13 +193,13 @@ Tomamos la media histórica de precipitaciones considerada entre 1991 y 2020 com
 - \( P_7 \) = Promedio de precipitaciones en Siberia
 - \( P_8 \) = Promedio de precipitaciones en la región amazónica
 
-#
+<br>
 
 ### Sistemas de ecuaciones lineales
 
 #### Mayo a Septiembre en los próximos 5 años
 
-#
+<br>
 
 $$
 \begin{cases}
@@ -214,13 +214,13 @@ P_8 = M + a_8 \\
 \end{cases}
 $$
 
-#
+<br>
 
 Donde \( a_i \) representa el cambio en las precipitaciones respecto a la media histórica \( M \) para cada región \( i \).
 
 #### Noviembre a Marzo 2022/2023 y 2026/2027
 
-#
+<br>
 
 $$
 \begin{cases}
@@ -235,11 +235,11 @@ P_8' = M + b_8 \\
 \end{cases}
 $$
 
-#
+<br>
 
 Donde \( b_i \) representa el cambio en las precipitaciones respecto a la media histórica \( M \) para cada región \( i \) durante el período de noviembre a marzo entre 2022/2023 y 2026/2027.
 
-#
+<br>
 
 ## 4. Conjuntos
 
@@ -263,7 +263,7 @@ $$
 𝐹=\{ \text{Suroeste de Europa, Suroeste de América del Norte, Norte de Europa, Sahel, Alaska, Norte de Siberia, Región Amazónica, Trópicos, Zonas Subtropicales} \}
 $$
 
-#
+<br>
 
 ## 5. Relaciones
 
@@ -345,7 +345,7 @@ $$
 D \cap E \cap F = \{ \text{(vacío)} \} \quad \text{(No hay intersección de los tres conjuntos)}
 $$
 
-#
+<br>
 
 ## 6. Desglose en Proposiciones Lógicas
 
